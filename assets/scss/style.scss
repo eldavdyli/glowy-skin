@@ -1,0 +1,929 @@
+$pink:#f5a8bd; 
+$tpink:#eb3566;
+$brown:#752b2b;
+$red:#BF2323;
+$black:#1c1e21;
+$gray2:#1e3444;
+$gray:#424242;
+$gray3:#cecece;
+
+
+
+
+
+  
+
+*{
+    
+   margin: 0px ;
+   box-sizing: content-box;
+   padding: 0px;
+
+}
+
+ .bg-pink{
+    background-color: $pink;
+ }  
+
+ a{
+    text-decoration: none;
+ }
+
+.btn {
+    border: 2px solid $tpink;
+    text-decoration: none;
+    text-decoration-color: $tpink;
+    color: $tpink;
+    transition: all .2s ease-in-out; 
+    font-weight: bold;
+
+
+  &:hover {
+
+    background-color: $tpink;
+    color: #fff }
+  
+     }
+
+.container{
+    margin: 0 auto;
+}     
+
+header {
+
+    .container1{ 
+    width: 100%;
+    margin: 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;}
+
+
+  
+      
+        ul {
+            display: flex;
+        list-style-type: none;
+      
+         li{
+            margin: 0px 0px;
+            justify-content: space-between;
+            padding: 5px;
+            position: relative;    
+        }
+  } 
+
+         a {
+            color: #fff;
+            font-weight: 600 ;
+            font-size: 16px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif    
+         
+            }
+            .Home{
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            
+            .Our-products{
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .about-us{
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .contact{
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .icons{
+                color: #fff;
+                font-size: 26px;
+                justify-content: center;
+                align-items: center;
+                margin-left: 1px;
+                margin-bottom: 20px;
+                & > * {
+                    margin-right: 25px; 
+                }
+            }
+                .icons i {
+                    margin-right: 12px;
+                    transition: transform 0.3s ease-in-out;
+                   
+                    &:hover {
+                        transform: scale(1.2);
+                    }    
+                } 
+            }     
+
+main{
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+#Products{
+    .container3 {
+            margin-top: 50px;
+            padding-top: 0px;
+           
+            padding-bottom: 0px;
+        
+           .h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 1000;
+            font-size: 31px;
+            letter-spacing: 1px;
+           
+
+            line-height: 1.3;
+            color: $tpink;
+            padding-bottom: 5px;
+           }
+           
+           
+        }
+        .h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-weight: 20;
+            font-size: 20px;
+            color: black;
+            line-height: 24px;
+            padding-bottom: 20px;   
+           }
+         .ul{
+                list-style-type: disc;
+                color: $gray;
+                padding-bottom: 40px;
+                padding-left: 40px;
+                padding-top: 28px; ;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              li{
+                padding-bottom: 10px;
+              }
+         }
+         .shop1{
+            color: $tpink;
+            font-weight: 500;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 1px;
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: uppercase;
+            
+
+            &:hover {
+        
+                color: $black;
+            }
+       }
+            .dots{
+            font-size: 9px;
+            letter-spacing: 5px;
+            align-items: center;
+            border-radius:10px;
+            padding-top: 10px;
+            margin: 20px;
+            flex-direction: row;
+            .fa-regular.fa-circle-dot {
+                font-size: 20px; 
+            }
+    }
+ }
+ #shop {
+    .offer_images{
+    list-style-type: none;   
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 120px;
+    justify-content: space-around;
+   
+ 
+    
+    img {
+        max-width: 100%; 
+        border-radius: 10px; 
+        overflow: hidden;
+    }
+
+
+        
+  }
+  
+  
+ 
+  
+  
+ 
+ }
+ #newarrivals {
+    h1{
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 5;
+        margin-left:70px;
+        margin-top: 60px;
+    }
+
+        .container {
+            padding-top: 0px;
+            margin-top: 0px;
+            justify-content: space-between;
+                display: grid;
+                
+            }
+            .card {
+                padding-top: 50px;
+                box-sizing: border-box; 
+                justify-content: space-between;
+               
+  
+                p{
+                  color: #fff;
+                  background-color: $tpink;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  width: fit-content;
+                  margin-left: 20px;
+                  padding: 5px 17px 5px 17px;
+                  border-radius: 50px;
+                  font-size: 13px;
+                 
+      
+                }
+  
+                h3{
+                  font-size: 20px;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  font-weight:500;
+                  padding: 10px;
+                  line-height: 27px;
+                  margin-top: 60px;
+                }
+  
+                h2{
+                 margin-left: 10px; 
+                padding-bottom: 30px;
+                color: $brown;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 10000;
+                font-size: 25px;
+                
+                
+                span{
+                  color:$gray3;
+                  
+                }
+  
+                a{
+                  .btn{
+                  padding: 2px 30px 2px 30px;
+              }
+                
+                  
+  
+                }
+                }
+          
+              img{
+                  height: auto;
+                  justify-content: space-between;
+                 
+              
+                  
+  
+                  
+                 
+                  
+                }
+              }
+            }
+ #reviews{
+              background-color: rgb(244, 243, 243);
+                .container4{
+                    display: grid;
+                    margin-top: 50px;
+    
+    
+               
+                    
+                }
+
+           .costumerreviews{
+        
+            h1{
+             color: $brown;
+             font-weight: 500;
+             font-size: 28px;
+             line-height: 22px;
+             text-align: center;
+             margin: 0 auto 20px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             letter-spacing: 0.5px;
+            }
+            .comment{
+             background-color: #fff;
+             padding: 10px;
+             border-radius: 15px;
+             border: 2px solid #ffffff;
+             margin-top: 20px;
+            margin-left: 10px;
+             max-width: 600px;
+             align-items: flex-start;
+             
+             
+             
+           h3{
+             padding-bottom: 3px;
+ 
+           }
+           p{
+             color: $gray;
+             font-size: 17px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           }
+             .stars{
+                 color: rgb(255, 225, 0);
+                 font-size: 20px;
+                 padding-top: 13px;
+             }
+ 
+             .name{
+                 color: $brown;
+                 padding-top: 5px;
+                 padding-bottom: 5px;
+                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 font-size: 16px;
+                 letter-spacing: 1px;
+             }
+             
+             
+           }
+           .dots1{
+            
+             padding-bottom: 0px;
+             font-size: 8px;
+             letter-spacing: 8px;
+             margin-top: 80px;
+ 
+             .fa-regular.fa-circle-dot{
+                 font-size:20px ;
+             }
+ 
+           }
+              justify-content: center;
+             margin-top:70px ;
+             padding: 100px 20px ; 
+            }
+ 
+         
+ 
+          
+            }
+ #aboutus{
+    .container{
+                
+                
+        display: grid;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+ }                       
+ #join{
+   
+    .container6{
+      
+        display: flex;
+        justify-content: space-between;
+        
+        
+        
+        h1{
+            padding-top: 20px;
+            color: $brown;
+            font-size: 33px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+            
+        }
+        .email input[type="email"]{
+            padding: 28px 40px 28px 15px;
+            height: auto;
+            border-color: #fff;
+            border-radius: 10px;
+                         
+        }
+       
+
+        }
+        p{
+            
+         font-size: 18px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 100;
+        }
+    }
+ footer{
+        .container7{
+            
+            .footer{
+            
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            }
+              
+        
+        ul{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            list-style-type: none;
+            font-size: 15px;
+           
+            li{
+                padding-bottom: 15px;
+            }
+        }
+        
+        .discounts{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            h3{
+                color:$brown;
+                font-size: 15px;
+                padding-bottom: 10px;
+
+            }
+            p{
+                font-size: 13px;
+                font-weight: 100;
+                a{
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+        .contact2{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            h2{
+                font-size: 15px;
+                font-weight: 100;
+                padding-bottom: 15px;
+               
+            
+        }
+        p{
+            a{
+                color: black;
+                font-size: 30px;
+                font-weight: bolder;
+                letter-spacing: -3px;
+              
+            }
+             .email1{
+               font-weight: bolder;
+             }
+
+              
+            
+        }
+         
+            }
+    }
+     }
+
+          
+         
+    
+
+ //mobile 
+@media screen and  (max-width: 768px) {
+   
+input[type="checkbox"] {
+    display: none;
+
+}
+label[for="toggle-menu"]{
+    position: absolute;
+    color: #fff;
+   top: 20px;
+   left: 10px;
+
+}
+.toggle-menu:checked + nav{
+  
+          display: block;
+      }
+    
+    .btn {
+        padding: 5% 10%;
+    }
+    header{
+       nav{ 
+        display: none;
+        background-color: $pink;
+        padding-top: 50%;
+              ul{
+                flex-direction: column;
+                
+              }
+        }
+        .icons{
+        .fa-regular.fa-user {
+            display: none;
+        }
+    }
+    .logo{
+        max-width: 40%;
+    }
+    }
+    .offer{
+        display: none;
+    }
+    #Products{
+        .container3{
+            img{
+                max-width: 60%;}
+            .details{
+                padding-left: 5%;
+                max-width: 90%;
+            }
+        }
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+    .socialmedia{
+        display: none;
+    }
+    #newarrivals {
+        .container{
+           
+         grid-template-columns:1fr 1fr ;
+         width: 100%;
+    }
+    .card{
+      padding-left:15%;
+        img{
+            max-width: 100%;
+        }
+
+    }
+    }
+
+    #reviews{
+        .container4{
+           
+    
+           
+            video{
+                max-width: 80%;
+                border:$pink ;
+                padding: 0 9% ;
+                
+    
+            
+            }
+           .dots1{
+            padding-left: 30%;
+           }
+        }
+    
+    }
+    #more{
+        .container{
+            max-width: 50%;
+       
+
+            .leaves{
+               
+                margin-left: -216px;
+                margin-bottom: -167px;
+            }
+            .watermelon{
+                max-width: 180%;
+                margin-top: -80px; 
+            
+              }
+        }
+
+    }
+     #aboutus{
+        .container{
+            grid-template-columns: 1fr 1fr;
+            max-width: 80%;
+            grid-gap: 10%;
+        }
+     }     
+     #join{
+       .container6{
+        flex-direction: column;
+        margin:10% ;
+        .email input[type="email"]{
+            min-width: 80%;
+            padding: 5%;
+            margin: 5%;
+         
+        }
+      
+        
+     }
+    }
+    footer{
+        .container7{
+            
+            .footer{
+                flex-direction: column;
+               padding: 5%;
+               ul{
+                padding: 7% 0 ;
+               }
+            
+            }
+        }
+    }
+    }
+
+//desktop 
+@media screen and (min-width: 800px) {
+  .container{
+  
+    width: 1300px
+  }
+  .btn {
+    padding: 8.000px 70px;
+}
+    header {
+        input[type="checkbox"] {
+            display: none;
+        }    
+        label[for="toggle-menu"]{
+          display: none;
+        
+        }
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: #fff;
+        height: 0.3px; 
+        top: 70px; 
+        
+        transform: translateY(-50%);
+    }
+
+    &::before {
+        width: calc(45% - 90px);
+        left: 0;
+    }
+
+    &::after {
+        width: calc(50% - 100px);  
+        right: 0;
+    }    
+ 
+ 
+    .logo{
+        height:auto ;
+        width: 38%;
+        padding: 8px 100px;
+
+   
+    }
+
+    .left-side-inlinemenu{
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-bottom: 12px;
+        justify-content: space-between;
+        margin: 0px 5px;
+       li{
+        padding: 10px;
+       }
+    }
+       
+.socialmedia{
+    display: flex;
+    align-items: center;  
+    margin-right: 100px;
+   
+    } 
+   
+
+    .socialmedia li {
+        margin-top: 15px;
+       
+
+       
+      
+        img {
+            max-width: 25px; 
+            border-radius: 180px ;
+            margin-bottom: 30px;
+            padding-right: 1px;
+            color: #fff;
+
+            &:hover {
+              background-color:$black;
+              color: $pink;
+
+          
+            }
+           }
+         }
+        }
+    .offer{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 2px;
+            padding-left: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0,6px;        
+            .OF{
+                font-size: 12px;
+                background: $red;
+                color: #fff;
+                border-radius: 3px;
+                margin-right: 5px;
+                width: fit-content;
+                padding: 0 5px;
+                
+            }
+        }
+    #Products{
+        .container3 {  
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 180px;
+            
+               
+               
+            }
+                
+    }  
+    #shop {
+        .offer_images{
+            margin: 30px;
+            padding: 30px;
+        }
+    }  
+   #newarrivals{
+    .container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .card{
+        padding-right: 100px;
+        img{
+            max-width: 140%;
+        }
+
+    }
+   } 
+   #reviews{
+    .container4{
+        grid-template-columns: 1fr 1fr;
+
+       
+        video{
+            max-width: 600px;
+            max-height: 600px;
+            border:$pink ;
+            padding: 0 200px 0 200px;
+            
+
+          }
+          .dots1{
+            margin-left: 250px;
+          }
+    }
+
+    
+
+      
+}
+#more{
+           
+    .container{
+
+       position: relative; 
+       margin-top: 0px;
+       margin-left: 300px;
+      
+
+       h3{
+        margin-left: 300px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+       }
+
+       h1{
+        color: $tpink;
+        margin-left: 120px;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 3px;
+        padding-bottom: 20px;
+       }
+
+       p{
+        color: rgb(75, 75, 75);
+        padding-right: 300px;
+        line-height: 30px;
+        font-size: 20px;
+        text-align: center;
+       }
+       
+       
+
+      .leaves{
+        margin-left: -204px;
+        margin-bottom: -200px;
+}
+      .watermelon{
+        margin-left: 627px;
+        margin-top: -80px; 
+    
+      }
+       
+    }
+
+ }    
+ #aboutus{
+    .container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 150px;
+    }
+ }      
+ #join{
+    padding: 60px;
+    .container6{
+      
+        display: flex;
+        justify-content: space-between;
+        
+        
+        
+        h1{
+            padding-top: 20px;
+            color: $brown;
+            font-size: 33px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+            
+        }
+        .email input[type="email"]{
+            padding: 28px 40px 28px 15px;
+            height: auto;
+            min-width: 420px;
+            border-color: #fff;
+            border-radius: 10px;
+           margin-left: 100px;                  
+        }
+       
+
+        }
+        p{
+            
+         font-size: 18px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 100;
+        }
+    
+       
+}
+footer{
+    .container7{
+        .footer{
+            .menu{
+               
+                padding: 40px 20px 100px 20px ;
+            }
+             .policy{
+                padding: 40px 50px 100px 20px ;
+             } 
+             .discounts{
+             padding: 40px 50px 100px 20px ;
+             }
+             .contact2{
+                padding: 40px 50px 100px 20px ;
+             }
+        }
+
+    }
+}
+}
+
+
